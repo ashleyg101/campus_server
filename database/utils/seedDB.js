@@ -15,9 +15,10 @@ const seedDB = async () => {
 	});
 
 	const dummy_student = await Student.create({
-			firstname: "Joe",
+	  firstname: "Joe",
       lastname: "Shmo",
 	  email: "joeshmo@abc.com",
+	  imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePoVhTeaks5ESIWqL34k8BOO9Wh6UZdZECw&usqp=CAU",
 	  gpa: 0.0
 		});
 
